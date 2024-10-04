@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  user-select: none;
+}
+  
+.card1 {
+  position: absolute;
+  display: flex;
+  align-items: flex-start; /* Align items to the start (top-left) */
+  margin: 20px auto; /* Center the card horizontally */
+  background-color: rgb(255, 255, 255);
+  width: 800px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 20px; /* Add some padding for better spacing */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+  z-index: 0;
+}
+  
+.img1 {
+  height: 50px;
+}
+
+h1 {
+  margin: 10px 30px; /* Add margin for better spacing */
+  font-size: 25px; 
+  color: rgb(60, 60, 60);
+}
+
+.img2 {
+    height: 50px;
+}
+
+.descrição {
+  text-align: left;
+  position: absolute;
+  margin-top: 50px; /* Add margin for spacing from the elements above */
+  font-size: 20px;
+  color: rgb(60, 60, 60);
+}
+
+.descrição > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #00a8ff;
+}
+
+.card2 {
+  position: absolute; /* Keep this for positioning if needed */
+  width: 23%;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #420b19;
+  z-index: 1;
+  margin: 20px 500px;
+}
+  
+.lista{
+  margin-top: 70px;
+  padding-left: 50px;
+}
+
+.lista > li {
+  color : white;
+  font-size: 20px;
+  padding: 5px;
+}
+footer {
+  position: absolute;
+  display: flex;
+  padding-left: 5px;
+}
+
+.icon-insta {
+  height: 63px;
+  padding-top: 350px;
+}
+
+.icon-site {
+  height: 40px;
+  padding-top: 361px;
+}
+
+@media screen and (max-width: 1350px) {
+   .card1 {
+    width: 320px;
+    height: 280px;
+   }
+
+   .img1 , .img2{
+    height: 40px;
+   }
+
+   h1 {
+    font-size: 16px;
+    margin: 12px 10px;
+   }
+
+   p {
+    font-size: 12px;
+   }
+
+   a:link {
+    font-size: 12px;
+   }
+
+   .card2 {
+    width: 215px;
+    height: 281px;
+    margin-left: 290px;
+   }
+
+   .lista > li {
+    margin-top: -5px;
+    font-size: 12px;
+   }
+
+   .icon-insta {
+    height: 40px;
+    padding: 255px 10px;
+   }
+
+   .icon-site {
+    height: 25px;
+    padding-top: 263px 
+   }
+} 
